@@ -4,9 +4,254 @@
 }
 body {
     margin: 0;
+    box-sizing: border-box;
+}
+.nav-link:hover{
+  color: #55a650 !important;
+}
+nav{
+  padding: 10px 50px !important;
 }
 
-.my-navigation {
-  background-color: black;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.notification {
+  background-color: rgb(112, 26, 224);
+  color: white;
+  padding: 8px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 700px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.description {
+  margin-bottom: 20px;
+  color: white;
+  width: 40%;
+}
+
+#internsImage {
+  width: 100%;
+}
+.con {
+  background-color: black;
+  padding: 10px;
+}
+.body-containers {
+display: flex;
+flex-wrap: wrap;
+}
+.button {
+  color: #fff;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #000000c9;
+}
+
+a.button:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+
+.one {
+  display: grid;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  gap: 2rem;
+  margin-left: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.container2 {
+  text-align: center;
+}
+span {
+  color: green;
+}
+
+p {
+  font-weight: 400;
+  line-height: 1.25rem;
+  font-size: 0.85rem;
+  text-align: center;
+}
+button {
+  background-color: green;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px 15px;
+  max-height: fit-content;
+}
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-c {
+  display: grid;
+  column-gap: 1rem;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 2px;
+  background-size: contain;
+  background-position: right-top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.wrap {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+.wrap-1 {
+  display: grid;
+}
+.ml {
+  margin-left: 6rem;
+}
+.wrap-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.wrap-3 {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.85rem;
+  line-height: 2.25rem;
+}
+.wrap-4 {
+  font-family: monospace;
+  border-width: 1px;
+  border-radius: 0.375rem;
+  overflow: clip;
+  margin-bottom: 4rem;
+}
+.head {
+  color: green;
+  font-weight: 600;
+  padding: 0.5rem;
+  background-color: rgb(238, 247, 238);
+  border-bottom-width: 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  background-image: none;
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+footer{
+  background-color: #111;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.SocialIcons{
+  display: flex;
+  justify-content: center;
+}
+.SocialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.SocialIcons a i{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+/* Hover effect on social media icons */
+.SocialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.SocialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.FooterNav{
+  margin: 30px 0;
+}
+
+.FooterNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.FooterNav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.FooterNav ul li a:hover{
+  opacity: 1;
+}
+.footerbottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerbottom p{
+  color: white;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+  
+
 
